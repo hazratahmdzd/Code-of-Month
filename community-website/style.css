@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@300;600;700&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@100;300;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=REM:wght@300;600;700&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@100;300;600;800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: 600;
+  transition: all 0.5s;
+  font-family: "Work Sans", sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  font-family: "Crimson Text", serif;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: #74C69D;
+  padding-bottom: 80px;
+}
+header > .container > .header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > .container > .header-top > .left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+header > .container > .header-top > .left > h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+}
+header > .container > .header-top > .right {
+  display: flex;
+  gap: 40px;
+}
+header > .container > .header-top > .right > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15px;
+}
+header > .container > .header-top > .right > a:hover {
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+header > .container > .header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header > .container > .header-bottom > .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 35%;
+  gap: 10px;
+}
+header > .container > .header-bottom > .left > h4 {
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header > .container > .header-bottom > .left > h3 {
+  color: white;
+}
+header > .container > .header-bottom > .left > p {
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+}
+header > .container > .header-bottom > .left button {
+  background-color: white;
+  margin-top: 5px;
+}
+header > .container > .header-bottom > .left button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+header > .container > .header-bottom .right {
+  width: 50%;
+  overflow-x: hidden;
+}
+header > .container > .header-bottom .right > img {
+  width: 530px;
+}
+
+main {
+  padding-bottom: 80px;
+}
+main #learnbtn {
+  background-color: black;
+  color: white;
+}
+main #learnbtn:hover {
+  background-color: #74C69D;
+  color: black;
+  transition: all 0.5s;
+}
+main > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  margin-top: 50px;
+}
+main > .container #team {
+  width: 50%;
+}
+main > .container > .text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+}
+main > .container > .text > h4 {
+  color: #74C69D;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+main > .container > .text > p {
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+}
+main > .container > .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+main > .container > .logo-container > img {
+  width: 150px;
+}
+main > .container .picture {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+main > .container .picture > .container-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+main > .container .picture > .container-text > p {
+  color: rgba(33, 37, 41, 0.4901960784);
+  font-size: 14px;
+  margin: 0;
+}
+main > .container .picture > img {
+  width: 50%;
+  overflow-x: hidden;
+}
+main > .container > .talents {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main > .container > .talents > .person {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 230px;
+  border-radius: 5px;
+  transition: ease-in-out 0.3s;
+}
+main > .container > .talents > .person:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+main > .container > .talents > .person > .main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main > .container > .talents > .person > .main > .photo {
+  border-radius: 50%;
+  border: 1px solid black;
+  overflow: hidden;
+  width: 140px;
+  height: 140px;
+  position: relative;
+  margin-top: 20px;
+}
+main > .container > .talents > .person > .main > .photo > img {
+  width: 100px;
+  position: absolute;
+  top: 13px;
+  left: 19px;
+}
+main > .container > .talents > .person > .main > .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+main > .container > .talents > .person > .main > .text > h4 {
+  font-weight: 600;
+}
+main > .container > .talents > .person > .main > .text > p {
+  font-weight: 300;
+  color: rgba(33, 37, 41, 0.5921568627);
+  font-size: 14px;
+  margin-top: 0;
+}
+
+footer {
+  background-color: #74C69D;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+footer > .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer > .container > .footer-logos {
+  display: flex;
+  gap: 20px;
+}
+footer > .container > .footer-text {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
