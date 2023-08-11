@@ -55,17 +55,28 @@ header {
 
             >.right {
                 display: flex;
-                gap: 40px;
+                align-items: center;
+                >.right-list {
+                    display: flex;
+                    gap: 40px;
 
-                >a {
-                    color: white;
-                    text-decoration: none;
-                    font-weight: 300;
-                    font-size: 15px;
+                    >a {
+                        color: white;
+                        text-decoration: none;
+                        font-weight: 300;
+                        font-size: 15px;
 
-                    &:hover {
-                        text-decoration: underline;
-                        transition: all 0.3s;
+                        &:hover {
+                            text-decoration: underline;
+                            transition: all 0.3s;
+                        }
+                    }
+
+                }
+                >.right-menu {
+                    display: none;
+                    >img {
+                        width: 50px;
                     }
                 }
             }
@@ -129,6 +140,7 @@ header {
 
 main {
     padding-bottom: 80px;
+
     #learnbtn {
         background-color: black;
         color: white;
@@ -147,7 +159,7 @@ main {
         gap: 55px;
         margin-top: 50px;
 
-        #team {
+        .team {
             width: 50%;
         }
 
@@ -218,17 +230,20 @@ main {
                 width: 230px;
                 border-radius: 5px;
                 transition: ease-in-out 0.3s;
+
                 &:hover {
                     transform: scale(1.1);
                     transition: ease-in-out 0.3s;
+                    border: 1px solid #74C69D;
                 }
+
                 >.main {
                     width: 90%;
                     margin: auto;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    
+
                     >.photo {
                         border-radius: 50%;
                         border: 1px solid black;
@@ -245,15 +260,18 @@ main {
                             left: 19px;
                         }
                     }
+
                     >.text {
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
                         width: 80%;
-                        > h4 {
+
+                        >h4 {
                             font-weight: 600;
                         }
-                        > p {
+
+                        >p {
                             font-weight: 300;
                             color: #21252997;
                             font-size: 14px;
@@ -271,18 +289,20 @@ footer {
     height: 120px;
     display: flex;
     align-items: center;
-    > .container {
+
+    >.container {
         width: 80%;
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        > .footer-logos {
+        >.footer-logos {
             display: flex;
             gap: 20px;
         }
-        > .footer-text {
+
+        >.footer-text {
             color: white;
         }
     }

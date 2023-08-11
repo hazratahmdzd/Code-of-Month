@@ -51,17 +51,27 @@ header > .container > .header-top > .left > h2 {
 }
 header > .container > .header-top > .right {
   display: flex;
+  align-items: center;
+}
+header > .container > .header-top > .right > .right-list {
+  display: flex;
   gap: 40px;
 }
-header > .container > .header-top > .right > a {
+header > .container > .header-top > .right > .right-list > a {
   color: white;
   text-decoration: none;
   font-weight: 300;
   font-size: 15px;
 }
-header > .container > .header-top > .right > a:hover {
+header > .container > .header-top > .right > .right-list > a:hover {
   text-decoration: underline;
   transition: all 0.3s;
+}
+header > .container > .header-top > .right > .right-menu {
+  display: none;
+}
+header > .container > .header-top > .right > .right-menu > img {
+  width: 50px;
 }
 header > .container > .header-bottom {
   display: flex;
@@ -128,7 +138,7 @@ main > .container {
   gap: 55px;
   margin-top: 50px;
 }
-main > .container #team {
+main > .container .team {
   width: 50%;
 }
 main > .container > .text {
@@ -193,6 +203,7 @@ main > .container > .talents > .person {
 main > .container > .talents > .person:hover {
   transform: scale(1.1);
   transition: ease-in-out 0.3s;
+  border: 1px solid #74C69D;
 }
 main > .container > .talents > .person > .main {
   width: 90%;

@@ -1,0 +1,83 @@
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    header {
+        padding-bottom: 40px;
+    }
+
+    .header-top svg {
+        width: 45px;
+    }
+    #nav-text {
+        font-size: 30px;
+    }
+    #right-list {
+        display: none;
+    }
+    #right-menu {
+        display: block;
+    }
+
+    .header-bottom {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .header-bottom > #left {
+        width: 100%;
+    }
+    .header-bottom > #right {
+        width: 100%;
+    }
+    .header-bottom > #right > img {
+        width: 360px;
+    }
+
+    main > .container > .text {
+        width: 100%;
+    }
+    main > .container > .logo-container {
+        width: 80%;
+        flex-direction: column;
+    }
+    main > .container > .picture {
+        flex-direction: column;
+        gap: 30px;
+    }
+    main > .container > .picture > .container-text {
+        width: 100%;
+    }
+    main > .container > .picture > img {
+        width: 100%;
+    }
+    main > .container > #bottom-picture {
+        flex-direction: column-reverse;
+    }
+    #team {
+        width: 100%;
+    }
+    main > .container > .talents {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer > .container {
+        flex-direction: column;
+    }
+    footer > .container > .footer-logos {
+        width: 75%;
+        margin: auto;
+    }
+    footer > .container > .footer-text {
+        width: 100%;
+        font-size: 20px;
+    }
+}

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -31,17 +32,22 @@
                             d="M13.4808 7.5851C13.4808 11.3081 10.4629 14.3255 6.7404 14.3255C3.01794 14.3255 0 11.3081 0 7.5851C0 3.86264 3.01794 0.844696 6.7404 0.844696C10.4629 0.844696 13.4808 3.86264 13.4808 7.5851Z"
                             fill="white" />
                     </svg>
-                    <h2>Start</h2>
+                    <h2 id="nav-text">Start</h2>
                 </div>
                 <div class="right">
-                    <a href="#">Home</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Services</a>
-                    <a href="#">Contact</a>
+                    <div class="right-list" id="right-list">
+                        <a href="#">Home</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Services</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="right-menu" id="right-menu">
+                        <img src="img/white-menu-icon-png-18.png">
+                    </div>
                 </div>
             </div>
             <div class="header-bottom">
-                <div class="left">
+                <div class="left" id="left">
                     <h4>WELCOME</h4>
                     <h3>Lorem ipsum dolor sit amet consectetur</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti magni culpa iusto
@@ -52,7 +58,7 @@
                         <button>Explore</button>
                     </div>
                 </div>
-                <div class="right">
+                <div class="right" id="right">
                     <img src="img/header-photo.png">
                 </div>
             </div>
@@ -87,7 +93,7 @@
                     <button id="learnbtn">Learn More</button>
                 </div>
             </div>
-            <div class="picture">
+            <div class="picture" id="bottom-picture">
                 <div class="container-text">
                     <h3>Lorem ipsum dolor sit amet consectetur</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo veritatis cupiditate corrupti
@@ -98,7 +104,7 @@
                 </div>
                 <img src="img/picture-right.png">
             </div>
-            <div class="text" id="team">
+            <div class="text team" id="team">
                 <h4>TEAM</h4>
                 <h3>Our Talents</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum neque facilis quis rerum possimus
