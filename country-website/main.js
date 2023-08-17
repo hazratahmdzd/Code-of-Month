@@ -201,3 +201,15 @@ oceaniaButton.addEventListener('click', () => {
     oceaniaButton.style.color = 'rgb(62, 62, 153)';
     button.textContent = 'Oceania';
 })
+
+let headerDropdownMenu = document.getElementById('drpdwnmenu');
+let headerDropdownBtn = document.getElementById('drpdwnbtn');
+
+headerDropdownBtn.addEventListener('click', () => {
+    if(headerDropdownMenu.style.display == 'none') {
+        headerDropdownMenu.style.display = 'flex';
+    }
+    else {
+        headerDropdownMenu.style.display = 'none';
+    }
+})

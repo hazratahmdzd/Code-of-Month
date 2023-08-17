@@ -45,6 +45,11 @@ header {
   width: 90%;
   margin: auto;
 }
+.black-bg .header-main > #drpdwnmenu {
+  display: none;
+  animation-name: drpdwn-opcty;
+  animation-duration: 0.5s;
+}
 .black-bg .header-main > .nav {
   display: flex;
   align-items: center;
@@ -141,6 +146,16 @@ header {
   100% {
     height: 73px;
     opacity: 1;
+  }
+}
+@keyframes drpdwn-opcty {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 50px;
   }
 }
 main {
