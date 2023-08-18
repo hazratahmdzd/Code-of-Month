@@ -1,9 +1,5 @@
-const apiKey = '4GiSOq8N7LYArpPEG2yBUg2NxDtgTmOHR78hDhUC';
+const apiKey = 'KqZiRe179aVLXecCYPgEEJkPUWAsLcwcAbhR6SjH';
 const apiUrl = `https://countryapi.io/api/all?apikey=${apiKey}`;
-const urlParams = {
-    limit: 10,
-    skip: 0
-};
 
 let allCountriesContainer = document.getElementById("all-countries")
 let europeCountriesContainer = document.getElementById("europe-countries")
@@ -15,8 +11,6 @@ let oceaniaCountriesContainer = document.getElementById("oceania-countries")
 
 function getCountry() {
     const url = new URL(apiUrl);
-    url.searchParams.set('limit', urlParams.limit);
-    url.searchParams.set('skip', urlParams.skip);
 
     fetch(url)
         .then((response) => response.json())
