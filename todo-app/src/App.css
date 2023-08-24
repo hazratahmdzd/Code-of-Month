@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.todo-list > li {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 0 5px  rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.btns {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.todo-list > li > .btns > button {
+  background-color: red;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.todo-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.todo-input > input {
+  border: 1px solid #00000021;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.todo-input > button {
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+}
+
+#editbtn {
+  background-color: purple;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.todo-list > li > input {
+  border: 1px solid #00000021;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 80%;
+}
